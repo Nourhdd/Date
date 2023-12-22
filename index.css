@@ -1,0 +1,46 @@
+body {
+    background-color: #ee91b7;
+}
+
+h1{
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+img{
+   max-width:700px;
+   margin-left: 490px;
+}
+div {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    width: 200px;
+    height: 40px;
+    margin-left: 500px;
+}
+
+button {
+    width: 80px; /* Adjusted width */
+    background-color: rgb(211, 71, 136);
+    cursor: pointer;
+    border-radius: 20%;
+    border-color: rgb(211, 71, 136);
+    color: aliceblue;
+}
+
+/* Adjust margins for buttons */
+button:first-child {
+    margin-right: 30px; /* Add margin only on the right side of the first button */
+}
+
+button:last-child {
+    margin-left: 30px; /* Add margin only on the left side of the last button */
+}
+#nobutton {
+    position: absolute; /* Set the position attribute to enable movement */
+    left: 650px; /* Set initial left position */
+    top: 337px; /* Set initial top position */
+    transition: left 0.3s ease-in-out, top 0.3s ease-in-out; /* Smooth transition */
+    height: 40px;
+}
